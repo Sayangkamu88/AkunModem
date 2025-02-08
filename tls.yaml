@@ -15,5 +15,21 @@ proxies:
       headers:
         Host: warna-stb.bhm.my.id
     udp: true
+  - name: Akun 2
+    server: 104.26.6.171
+    port: 443
+    type: vmess
+    uuid: 62ede482-5b0e-4b93-b496-d39e5ab38285
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: warna-stb.bhm.my.id
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: warna-stb.bhm.my.id
+    udp: true
 
   
